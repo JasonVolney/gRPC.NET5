@@ -1,0 +1,2 @@
+obj/Debug/netcoreapp3.1/Users.cs \
+obj/Debug/netcoreapp3.1/UsersGrpc.cs: Protos/users.proto

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPC";
+
+package users;
+
+service Users {
+  rpc getUsers (UserRequest) returns (stream UserResponse);
+}
+
+message UserRequest {
+  int32 companyId = 1;
+}
+
+message UserResponse {
+  string firstName = 1;
+  string lastName = 2;
+  string address = 3;
+  string email = 4;
+}

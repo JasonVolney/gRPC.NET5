@@ -1,0 +1,2 @@
+obj/Debug/net5.0/Users.cs \
+obj/Debug/net5.0/UsersGrpc.cs: Protos/users.proto
